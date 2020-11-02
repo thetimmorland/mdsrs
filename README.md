@@ -1,5 +1,7 @@
 # MDSRS - Markdown Spaced Repetition System
 
+**WIP**
+
 A spaced repetition system similar to [Anki](https://apps.ankiweb.net/) where cards are created by writing plain markdown notes.
 
 <!-- ## Idea
