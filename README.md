@@ -15,7 +15,7 @@ Markdown has proven itself as a great easily-searchable format for taking note t
 
 MDSRS Parses all `**/*.md` files in its starting directory and uses those files to create flash cards.
 
-Basic Cards (Front and Back) take can be defined in lists anywhere in your markdown file.
+Basic Cards (Front and Back) can be defined in lists anywhere in your markdown file.
 
 ```md
 - front: back
