@@ -1,0 +1,22 @@
+[package]
+authors = ["Timothy Morland <me@timothy-morland.com>"]
+name = "mdsrs"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+actix-web = "3"
+actix-files = "0.3"
+actix-session = "0.4"
+
+dotenv = "0.15"
+env_logger = "0.7"
+futures = "0.3.1"
+log = "0.4.3"
+serde = { version = "1.0.69", features = ["derive"] }
+serde_json = "1.0.22"
+tera = "1.5.0"
+
+[dependencies.diesel]
+features = ["sqlite", "r2d2"]
+version = "1.3.2"
